@@ -23,8 +23,8 @@ screens:
         - run: flatpak remove --system --noninteractive --all
         - run: flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
         - run: flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo
-	- run: flatpak remote-modify --subset=floss flathub
-	- run: flatpak remote-modify --subset=floss --user flathub
+        - run: flatpak remote-modify --subset=floss flathub
+        - run: flatpak remote-modify --subset=floss --user flathub
   check-system-flathub:
     source: yafti.screen.consent
     values:
