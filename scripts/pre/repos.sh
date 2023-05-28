@@ -8,5 +8,5 @@ set -oue pipefail
 # Your code goes here.
 
 # Use only free software from Flathub.
-flatpak remote-modify --subset=floss flathub
+# flatpak remote-modify --subset=floss flathub
 
