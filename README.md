@@ -6,6 +6,10 @@ This is a constantly updating repository for creating [a native container image]
 
 For more info, check out the [uBlue homepage](https://ublue.it/) and the [main uBlue repo](https://github.com/ublue-os/main/).
 
+## Help Me Leave GitHub
+
+I really do not like using GitHub for this, but the ["Making Your Own"](https://ublue.it/making-your-own/) documentation relies heavily on GitHub-specific workflows, and I am not experienced enough to know how to do this with [Codeberg](https://codeberg.org/) instead.
+
 ## Installation
 
 > **Warning**
