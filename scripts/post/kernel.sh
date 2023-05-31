@@ -6,4 +6,4 @@
 set -oue pipefail
 
 # Your code goes here.
-rpm-ostree override replace https://linux-libre.fsfla.org/pub/linux-libre/rpmfreedom/latest/RPMS/x86_64/kernel-6.3.4_gnu-1.x86_64.rpm
+rpm-ostree override replace https://linux-libre.fsfla.org/pub/linux-libre/rpmfreedom/latest/RPMS/x86_64/kernel-6.3.5_gnu-1.x86_64.rpm
