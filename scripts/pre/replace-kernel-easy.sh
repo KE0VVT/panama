@@ -34,9 +34,9 @@ sleep 2
 # an initramfs.
 ### COMMENT OUT BELOW LINE IF USING LOCALLY ###
 rpm-ostree cliwrap install-to-root / && \
-rpm-ostree override remove $INSTALLED_KERNEL_PACKAGES --install=kernel
+# rpm-ostree override remove $INSTALLED_KERNEL_PACKAGES --install=kernel
 # rpm-ostree override remove $INSTALLED_KERNEL_PACKAGES --install=kernel-specified
-# rpm-ostree override replace "URL/kernel-name.rpm"
+rpm-ostree override replace "https://linux-libre.fsfla.org/pub/linux-libre/rpmfreedom/latest/RPMS/x86_64/kernel-6.3.5_gnu-1.x86_64.rpm"
 
 #
 ## This script is best for repos which have named their packages nicely, like
