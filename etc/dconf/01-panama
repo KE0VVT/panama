@@ -1,0 +1,2 @@
+[org/gnome/shell]
+favorite-apps = ['icecat.desktop', 'org.gnome.Geary.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop']
