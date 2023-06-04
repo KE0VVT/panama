@@ -29,7 +29,7 @@ COPY usr /usr
 COPY etc /etc
 
 # Copy the recipe that we're building.
-COPY ${RECIPE} /usr/share/ublue-os/recipe.yml
+COPY ${RECIPE} /usr/share/panama/recipe.yml
 
 # "yq" used in build.sh and the "setup-flatpaks" just-action to read recipe.yml.
 # Copied from the official container image since it's not available as an RPM.
