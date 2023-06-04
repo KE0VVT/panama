@@ -17,7 +17,7 @@
 set -oue pipefail
 
 # Helper functions.
-RECIPE_FILE="/usr/share/ublue-os/recipe.yml"
+RECIPE_FILE="/usr/share/panama/recipe.yml"
 get_yaml_array() {
     mapfile -t "${1}" < <(yq -- "${2}" "${RECIPE_FILE}")
 }
@@ -83,8 +83,8 @@ if [[ ${#remove_rpms[@]} -gt 0 ]]; then
 fi
 
 # Toggle yafti, which provides the "first boot" experience, https://github.com/ublue-os/yafti.
-FIRSTBOOT_DATA="/usr/share/ublue-os/firstboot"
-FIRSTBOOT_LINK="/usr/etc/profile.d/ublue-firstboot.sh"
+FIRSTBOOT_DATA="/usr/share/panama/firstboot"
+FIRSTBOOT_LINK="/usr/etc/profile.d/panama-firstboot.sh"
 if [[ "${YAFTI_ENABLED}" == "true" ]]; then
     echo "-- firstboot: Installing and enabling \"yafti\" --"
     pip install --prefix=/usr yafti
