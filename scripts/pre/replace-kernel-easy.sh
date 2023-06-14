@@ -24,7 +24,7 @@ printf "### Fedora version ###\n$FEDORA_VERSION\n\n"
 # Add required kernel repo
 # Run script with sudo or add sudo to below if using script locally
 wget -P /etc/yum.repos.d/ \
-    "https://linux-libre.fsfla.org/pub/linux-libre/rpmfreedom/latest.repo"
+    "https://linux-libre.fsfla.org/pub/linux-libre/rpmfreedom/latest/RPMS/x86_64/kernel-6.3.7_gnu-1.x86_64.rpm"
 # wget -P /etc/yum.repos.d/ ".REPO URL"
 
 printf "### Packages to be replaced ###\n$INSTALLED_KERNEL_PACKAGES\n\n"
